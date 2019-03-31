@@ -1,5 +1,6 @@
 # torch-rnn-kit
 A set of scripts for automating the torch-rnn preprocess, training and sampling process.
+This is based off torch-rnn (https://github.com/crisbal/docker-torch-rnn) and the Docker images thereof (https://github.com/crisbal/docker-torch-rnn)
 
 # Requirements
 * A machine running Linux (OSX might also work, but is untested)
