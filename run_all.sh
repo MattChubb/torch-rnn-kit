@@ -1,4 +1,5 @@
 echo Running full preprocess+train+sample
+./flatten_source_data.sh
 ./preprocess.sh
 ./train.sh
 ./sample.sh

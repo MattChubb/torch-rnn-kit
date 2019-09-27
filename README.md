@@ -9,13 +9,14 @@ This is based off torch-rnn (https://github.com/crisbal/docker-torch-rnn) and th
 
 # Quick start
 1. Put your source data into the `source_data` folder
-2. Run `./run_all.sh`. 
+2. Run `./run_all.sh`.
 3. For further samples, simply run `./sample.sh`
 
 Please note that training can and will take a long time and consume a lot of processing power. Checkpoints are saved every 200 iterations, so it's reccommended you Ctrl+C to stop the training early to use the most recent checkpoint.
 
 # Step-by-step
 1. Put your source data into the `source_data` folder
+2. (Optional) Run flatten_source_data.sh to flatten the directory structure in source_data
 2. Preprocess using `./preprocess.sh`
 3. Train using `./train.sh`
 4. After 200 iterations or more, stop the training with Ctrl+C
